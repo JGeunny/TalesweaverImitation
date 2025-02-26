@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{b429950c-0d4c-4ae3-b26b-bac57f2db6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj">
+      <UniqueIdentifier>{c72d5d0b-2bea-403f-9220-6fad4865f51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Header">
+      <UniqueIdentifier>{c3a4f22c-10f7-466b-b995-8b463b62705a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{100debc3-688e-40c4-8f00-742526384fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Pattern">
+      <UniqueIdentifier>{6c4916ce-a86e-4357-8441-801ea1c45828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\00.Etc">
+      <UniqueIdentifier>{75ea7d64-9c7b-4562-8907-261b71f81e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\00.Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit">
+      <UniqueIdentifier>{ec4f5272-905a-42b5-a547-d8a6af12523d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Building">
+      <UniqueIdentifier>{4c57537f-b295-41d8-a9c6-31c1a0c46329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\00.Tile">
+      <UniqueIdentifier>{cbc9eb3d-dcab-4dea-8520-86dfff1ab729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{8c85c613-5420-4ec9-a30c-7c50298af7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\03.Item">
+      <UniqueIdentifier>{8d89c434-24e3-463f-a73a-650761278e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\00.Tile\00.Wall">
+      <UniqueIdentifier>{ea265b4f-553c-4e2e-9257-206a12d06f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\00.Tile\01.Obstacle">
+      <UniqueIdentifier>{6edbce20-c40b-4c13-bf0e-a57fa4d7048d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\03.Item\00.Equipment">
+      <UniqueIdentifier>{9533839d-41ed-4c33-a6aa-1560c7684e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\03.Item\01.Consumable">
+      <UniqueIdentifier>{4b6b38ca-513b-4024-a025-2dd2ebc6691a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager">
+      <UniqueIdentifier>{53dd64c8-ec98-4f33-a5db-3269c53d7be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\00.ImgMgr">
+      <UniqueIdentifier>{00feddda-cb6c-4483-b3c5-2b4655a9fc9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\01.ObjMgr">
+      <UniqueIdentifier>{ad53118c-e594-47f7-b6d2-0604970b7431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\02.CollisionMgr">
+      <UniqueIdentifier>{4a5d8998-56a4-44a8-8550-7deda5fca7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\03.Physics2D">
+      <UniqueIdentifier>{00066667-b83a-4e18-8721-20ab0ef263f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\04.RotatePos">
+      <UniqueIdentifier>{c697be27-2ea0-42c4-af04-b421e9b3ed90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\00.Player">
+      <UniqueIdentifier>{413b58b2-70e2-4e92-b47e-59121f7011de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\99.Mouse">
+      <UniqueIdentifier>{7b06c359-0d8b-4b85-9c53-7b7e08e5db7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\06.KeyMgr">
+      <UniqueIdentifier>{e44c78ac-a36f-4204-a272-c6da2fcd32bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\01.Monster">
+      <UniqueIdentifier>{6e6e655b-1a40-48f8-80f4-834380286525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill">
+      <UniqueIdentifier>{bfabc127-3ca1-4157-b27c-641526084b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill\00.Bullet">
+      <UniqueIdentifier>{3da2d5e7-4017-49fd-8b83-7f5862bf5b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill\02.Whirlwind">
+      <UniqueIdentifier>{aa797ac9-1ba3-41d1-a95d-b3276d9dc604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill\01.Wield">
+      <UniqueIdentifier>{05b6dd31-9697-4557-aebc-a330858857d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\07.FieldMap">
+      <UniqueIdentifier>{d88c473b-e535-4188-bc36-909121f05a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\08.ScrollMgr">
+      <UniqueIdentifier>{5ca6e80c-148d-474e-a29f-196a714b815a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill\00.Bullet\00.BounceBullet">
+      <UniqueIdentifier>{0476faec-ceca-4cc2-9f0f-7e1f4afc3f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\01.Monster\00.Boss">
+      <UniqueIdentifier>{5efd3ad5-d91c-482e-9049-fc4ea6afc436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill\03.ThunderWield">
+      <UniqueIdentifier>{9b108a90-f893-4c0a-85d1-cf8ac7eb2467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Pattern\00.StatePattern">
+      <UniqueIdentifier>{4fba816e-5643-43d5-b4e2-7497cfc1482b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Pattern\00.StatePattern\00.BossState">
+      <UniqueIdentifier>{ce21e294-6ea2-492c-95c1-714d93277ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\09.StateMgr">
+      <UniqueIdentifier>{0abaabc9-3cce-4351-9b52-d5b4ae2c61e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Pattern\00.StatePattern\01.BossState_2">
+      <UniqueIdentifier>{99680a59-ebdf-4cad-ba85-ec07b75d2137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\00.Logo">
+      <UniqueIdentifier>{3b2664ef-d0f6-4694-adb6-d877e50b01c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\10.SceneMgr">
+      <UniqueIdentifier>{38b27885-a547-40ba-8b67-d1baa7082cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.MyMenu">
+      <UniqueIdentifier>{5043237f-b505-49c9-a7fd-1785d58d80e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\98.Button">
+      <UniqueIdentifier>{929c4d97-748f-450c-abaa-e652b1ff1a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\01.Monster\01.Slime">
+      <UniqueIdentifier>{4bb7433f-329c-4e8c-987a-30849ff26142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\11.TileMgr">
+      <UniqueIdentifier>{a7e6181e-477b-4cf6-987e-d12db7f15a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.Town">
+      <UniqueIdentifier>{bf2ed542-5e51-4416-9609-8ad64207e3a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.Store">
+      <UniqueIdentifier>{3129c978-87ad-4c8b-b1b0-01c3c2839c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\04.Field">
+      <UniqueIdentifier>{1bfd564d-ab87-4df5-8afb-86d9cb3559d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\05.Dun1">
+      <UniqueIdentifier>{59d85691-365d-40d7-aa41-b90d451657bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.Dun2">
+      <UniqueIdentifier>{74f77a80-1598-47fb-8d17-984bff445337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.Boss">
+      <UniqueIdentifier>{713d0baf-8e72-42e0-a590-9f2f3335d3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\97.BeAttacked">
+      <UniqueIdentifier>{898e4980-7eb9-4eb0-a077-cbdc67eb89b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\10.Loading">
+      <UniqueIdentifier>{221f7295-1aa6-43ca-ab65-d746b942c61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\97.BeAttacked\00.CriticalAttacked">
+      <UniqueIdentifier>{13f0c98e-0357-49cf-894c-70677ba475b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.InterFace">
+      <UniqueIdentifier>{71f5eef1-5918-41e3-8223-2a4c2b333e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\01.Monster\02.Hunter">
+      <UniqueIdentifier>{df4fee43-eea7-4964-b666-63785f9d38db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill\04.Bow">
+      <UniqueIdentifier>{2a0740a8-078c-4867-af92-d27c55ae9706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill\04.Bow\00.Arrow">
+      <UniqueIdentifier>{4426eec4-94ea-4b40-b128-73ee7505dc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\01.Monster\00.Boss\00.StateIdle_Boss">
+      <UniqueIdentifier>{bc3e06e5-67a1-43e9-a88c-0dce73df4ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\01.Monster\00.Boss\01.StateSetPos_Boss">
+      <UniqueIdentifier>{f5e8ce6c-79fa-496d-9cbd-154f10602fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\01.Monster\00.Boss\02.StateAttack_Boss">
+      <UniqueIdentifier>{177fdd84-b9a1-45db-9526-22c78cb94ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\02.AircraftCarrier">
+      <UniqueIdentifier>{b458c4ee-b9ad-43de-94d1-72e07025806e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\08.BossFinish">
+      <UniqueIdentifier>{c5a58e7d-b5fc-4904-b940-30db7fea829e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\99.MyEdit">
+      <UniqueIdentifier>{80af79ef-d2b9-44af-92d9-b1922dc15dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\03.Turret">
+      <UniqueIdentifier>{09c54b67-2259-4bfa-8629-48daed792331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\03.Turret\01.MachineGunTurret">
+      <UniqueIdentifier>{8da00e8f-4c62-4439-a934-13473a627173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\03.Turret\02.MissileTurret">
+      <UniqueIdentifier>{ab6010ad-05c6-4033-97e4-cfeb7db72c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\03.Turret\03.GrenadeTurret">
+      <UniqueIdentifier>{59cdf3ae-6449-48bb-8993-20f18e555c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\01.ObjMgr\00.ObjMgrBuffer">
+      <UniqueIdentifier>{58dace4d-e2b9-41c6-85c6-885506a03d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill\05.Bomb">
+      <UniqueIdentifier>{e80cb5b6-3bae-479b-ab5b-d6a3a9a6e7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\96.Explosion">
+      <UniqueIdentifier>{ae5834ed-f002-4708-90b6-dcfb6f0df4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\02.AircraftCarrier\00.AircraftCarrier_Idle">
+      <UniqueIdentifier>{f3d75e09-b0ad-4c1c-93cf-bc9e2e8a258f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Pattern\00.FSM">
+      <UniqueIdentifier>{b22bed0b-d31a-43bf-bfa7-759008f4008c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Pattern\00.FSM\00.State">
+      <UniqueIdentifier>{b3c0073c-a4fe-4940-b63e-e10dd308a13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Pattern\00.FSM\01.Entity">
+      <UniqueIdentifier>{8e0593ae-b8b3-408d-b032-87b088bf4385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\95.MissionClear">
+      <UniqueIdentifier>{a4c4b622-f972-4f12-b4af-ad47d2b4db34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\95.Score">
+      <UniqueIdentifier>{365a5d28-88f3-4d6b-8872-c54fc7d0b946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\05.UI">
+      <UniqueIdentifier>{77c10130-32d5-4a8e-a5e6-da90f7d989a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\05.UI\00.PlayerInfo">
+      <UniqueIdentifier>{45efeb27-477a-42c3-ac95-728887c9dc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\05.UI\01.BossInfo">
+      <UniqueIdentifier>{a865a191-819a-4967-b2ef-8a716bcbe92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\06.Circle">
+      <UniqueIdentifier>{8cbf83c9-bf20-43a8-b533-bfbd789315f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\93.LevelUp">
+      <UniqueIdentifier>{1e62c560-964f-44d8-a1ea-adf9bf47ee87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\05.UI\02.PlayerStatus">
+      <UniqueIdentifier>{ce74d1a6-a103-46a4-9b3b-9cde1a941687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\05.UI\03.Inventory">
+      <UniqueIdentifier>{f62ea547-25a8-4daf-9ee6-427de91434d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\05.UI\05.Equip">
+      <UniqueIdentifier>{d8601927-e7a9-4299-8168-3e2f2b921df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\05.UI\06.Player_Slot">
+      <UniqueIdentifier>{e82170ab-2966-4896-a44c-73553d960ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\05.UI\04.Store_UI">
+      <UniqueIdentifier>{c6a9d057-a049-475e-9e37-70aa62eeb72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\92.Restore">
+      <UniqueIdentifier>{dfafa3fc-d5d0-4c80-a33c-2a9f97d2d37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\03.Turret\04.TurretB">
+      <UniqueIdentifier>{8c36f336-81fe-438c-828a-4c457b80617e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\12.SoundMgr">
+      <UniqueIdentifier>{449a1375-c3a3-4885-9fca-8891627aa9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\04.NPC">
+      <UniqueIdentifier>{aa376b3f-1137-4e12-b376-8ae9c0cf5a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\91.MyFont">
+      <UniqueIdentifier>{6ea33ef4-ef08-418d-8281-b70ef114ce18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\05.UI\07.WoodInfo">
+      <UniqueIdentifier>{76162232-eca5-4e26-b5fe-f6fca6f6747f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill\00.Bullet\01.Shield">
+      <UniqueIdentifier>{648287fd-9622-4874-9e2c-8871dd6a6faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\04.Skill\06.BossClone">
+      <UniqueIdentifier>{26ff71e0-5438-4408-b2db-b82d93b04a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\09.Ending">
+      <UniqueIdentifier>{418ee6fe-b78d-441d-84e9-2c46605db5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Unit\04.NPC\05.Pet">
+      <UniqueIdentifier>{a689fe9e-3f8a-42ee-8fb2-ec7cdb890154}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\00.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\00.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>97.Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01.Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgMgr.h">
+      <Filter>96.Manager\00.ImgMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>96.Manager\01.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatePos.h">
+      <Filter>96.Manager\04.RotatePos</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>96.Manager\02.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics2D.h">
+      <Filter>96.Manager\03.Physics2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.Obj\01.Unit\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01.Obj\99.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>96.Manager\06.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.Obj\01.Unit\01.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>01.Obj\04.Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01.Obj\04.Skill\00.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>01.Obj\01.Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Wield.h">
+      <Filter>01.Obj\04.Skill\01.Wield</Filter>
+    </ClInclude>
+    <ClInclude Include="Whirlwind.h">
+      <Filter>01.Obj\04.Skill\02.Whirlwind</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>01.Obj\00.Tile\00.Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>01.Obj\00.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldMap.h">
+      <Filter>96.Manager\07.FieldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>96.Manager\08.ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BounceBullet.h">
+      <Filter>01.Obj\04.Skill\00.Bullet\00.BounceBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>01.Obj\01.Unit\01.Monster\00.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ThunderWield.h">
+      <Filter>01.Obj\04.Skill\03.ThunderWield</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StatePattern.h">
+      <Filter>97.Pattern\00.StatePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="BossState.h">
+      <Filter>97.Pattern\00.StatePattern\00.BossState</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>96.Manager\10.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>02.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>02.Scene\01.MyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMgr.h">
+      <Filter>96.Manager\09.StateMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>01.Obj\98.Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>01.Obj\01.Unit\01.Monster\01.Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>02.Scene\99.MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>96.Manager\11.TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>02.Scene\02.Town</Filter>
+    </ClInclude>
+    <ClInclude Include="BeAttacked.h">
+      <Filter>01.Obj\97.BeAttacked</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Scene.h">
+      <Filter>02.Scene\07.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>02.Scene\03.Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>02.Scene\04.Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Dun1.h">
+      <Filter>02.Scene\05.Dun1</Filter>
+    </ClInclude>
+    <ClInclude Include="Dun2.h">
+      <Filter>02.Scene\06.Dun2</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>02.Scene\10.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalAttacked.h">
+      <Filter>01.Obj\97.BeAttacked\00.CriticalAttacked</Filter>
+    </ClInclude>
+    <ClInclude Include="InterFace.h">
+      <Filter>03.InterFace</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h">
+      <Filter>01.Obj\05.UI\00.PlayerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="BossInfo.h">
+      <Filter>01.Obj\05.UI\01.BossInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Hunter.h">
+      <Filter>01.Obj\01.Unit\01.Monster\02.Hunter</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>01.Obj\04.Skill\04.Bow</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>01.Obj\04.Skill\04.Bow\00.Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="AircraftCarrier.h">
+      <Filter>01.Obj\01.Unit\02.AircraftCarrier</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFinish.h">
+      <Filter>02.Scene\08.BossFinish</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>01.Obj\01.Unit\03.Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgrBuffer.h">
+      <Filter>96.Manager\01.ObjMgr\00.ObjMgrBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GrenadeTurret.h">
+      <Filter>01.Obj\01.Unit\03.Turret\03.GrenadeTurret</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileTurret.h">
+      <Filter>01.Obj\01.Unit\03.Turret\02.MissileTurret</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>01.Obj\96.Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>01.Obj\04.Skill\05.Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>97.Pattern\00.FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>97.Pattern\00.FSM\00.State</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionClear.h">
+      <Filter>01.Obj\95.MissionClear</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>01.Obj\95.Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>01.Obj\06.Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUp.h">
+      <Filter>01.Obj\93.LevelUp</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStatus.h">
+      <Filter>01.Obj\05.UI\02.PlayerStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>01.Obj\05.UI\03.Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Store_UI.h">
+      <Filter>01.Obj\05.UI\04.Store_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Equip.h">
+      <Filter>01.Obj\05.UI\05.Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Slot.h">
+      <Filter>01.Obj\05.UI\06.Player_Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>01.Obj\03.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Restore.h">
+      <Filter>01.Obj\92.Restore</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretB.h">
+      <Filter>01.Obj\01.Unit\03.Turret\04.TurretB</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>96.Manager\12.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>01.Obj\01.Unit\04.NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFont.h">
+      <Filter>01.Obj\91.MyFont</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodInfo.h">
+      <Filter>01.Obj\05.UI\07.WoodInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>01.Obj\04.Skill\00.Bullet\01.Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="BossClone.h">
+      <Filter>01.Obj\04.Skill\06.BossClone</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>02.Scene\09.Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>01.Obj\01.Unit\04.NPC\05.Pet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01.Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgMgr.cpp">
+      <Filter>96.Manager\00.ImgMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>96.Manager\01.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatePos.cpp">
+      <Filter>96.Manager\04.RotatePos</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>96.Manager\02.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics2D.cpp">
+      <Filter>96.Manager\03.Physics2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.Obj\01.Unit\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01.Obj\99.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>96.Manager\06.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.Obj\01.Unit\01.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>01.Obj\04.Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01.Obj\04.Skill\00.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>01.Obj\01.Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Wield.cpp">
+      <Filter>01.Obj\04.Skill\01.Wield</Filter>
+    </ClCompile>
+    <ClCompile Include="Whirlwind.cpp">
+      <Filter>01.Obj\04.Skill\02.Whirlwind</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>01.Obj\00.Tile\00.Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>01.Obj\00.Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldMap.cpp">
+      <Filter>96.Manager\07.FieldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>96.Manager\08.ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BounceBullet.cpp">
+      <Filter>01.Obj\04.Skill\00.Bullet\00.BounceBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>01.Obj\01.Unit\01.Monster\00.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ThunderWield.cpp">
+      <Filter>01.Obj\04.Skill\03.ThunderWield</Filter>
+    </ClCompile>
+    <ClCompile Include="StatePattern.cpp">
+      <Filter>97.Pattern\00.StatePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="BossState.cpp">
+      <Filter>97.Pattern\00.StatePattern\00.BossState</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>96.Manager\10.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>02.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>02.Scene\01.MyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMgr.cpp">
+      <Filter>96.Manager\09.StateMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>01.Obj\98.Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>01.Obj\01.Unit\01.Monster\01.Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>02.Scene\99.MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>96.Manager\11.TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>02.Scene\02.Town</Filter>
+    </ClCompile>
+    <ClCompile Include="BeAttacked.cpp">
+      <Filter>01.Obj\97.BeAttacked</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Scene.cpp">
+      <Filter>02.Scene\07.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>02.Scene\03.Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>02.Scene\04.Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Dun1.cpp">
+      <Filter>02.Scene\05.Dun1</Filter>
+    </ClCompile>
+    <ClCompile Include="Dun2.cpp">
+      <Filter>02.Scene\06.Dun2</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>02.Scene\10.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalAttacked.cpp">
+      <Filter>01.Obj\97.BeAttacked\00.CriticalAttacked</Filter>
+    </ClCompile>
+    <ClCompile Include="InterFace.cpp">
+      <Filter>03.InterFace</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfo.cpp">
+      <Filter>01.Obj\05.UI\00.PlayerInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="BossInfo.cpp">
+      <Filter>01.Obj\05.UI\01.BossInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Hunter.cpp">
+      <Filter>01.Obj\01.Unit\01.Monster\02.Hunter</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>01.Obj\04.Skill\04.Bow</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>01.Obj\04.Skill\04.Bow\00.Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="AircraftCarrier.cpp">
+      <Filter>01.Obj\01.Unit\02.AircraftCarrier</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFinish.cpp">
+      <Filter>02.Scene\08.BossFinish</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>01.Obj\01.Unit\03.Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgrBuffer.cpp">
+      <Filter>96.Manager\01.ObjMgr\00.ObjMgrBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GrenadeTurret.cpp">
+      <Filter>01.Obj\01.Unit\03.Turret\03.GrenadeTurret</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileTurret.cpp">
+      <Filter>01.Obj\01.Unit\03.Turret\02.MissileTurret</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>01.Obj\96.Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>01.Obj\04.Skill\05.Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>97.Pattern\00.FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>97.Pattern\00.FSM\00.State</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionClear.cpp">
+      <Filter>01.Obj\95.MissionClear</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>01.Obj\95.Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>01.Obj\06.Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUp.cpp">
+      <Filter>01.Obj\93.LevelUp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStatus.cpp">
+      <Filter>01.Obj\05.UI\02.PlayerStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>01.Obj\05.UI\03.Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Store_UI.cpp">
+      <Filter>01.Obj\05.UI\04.Store_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Equip.cpp">
+      <Filter>01.Obj\05.UI\05.Equip</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Slot.cpp">
+      <Filter>01.Obj\05.UI\06.Player_Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>01.Obj\03.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Restore.cpp">
+      <Filter>01.Obj\92.Restore</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretB.cpp">
+      <Filter>01.Obj\01.Unit\03.Turret\04.TurretB</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>96.Manager\12.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>01.Obj\01.Unit\04.NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFont.cpp">
+      <Filter>01.Obj\91.MyFont</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodInfo.cpp">
+      <Filter>01.Obj\05.UI\07.WoodInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>01.Obj\04.Skill\00.Bullet\01.Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="BossClone.cpp">
+      <Filter>01.Obj\04.Skill\06.BossClone</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>02.Scene\09.Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>01.Obj\01.Unit\04.NPC\05.Pet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default\00.Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.Default\00.Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>99.Default\00.Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default\00.Etc</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
